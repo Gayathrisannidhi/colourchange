@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css"> 
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 400px;
+        
+               
+    }
+    body :hover{
+        color: rgb(255, 2, 2);
+    }
+</style>
+<body>
+    <button > <b> CLICK ME </b> </button>
+</body>
+<script>
+    const button=document.querySelector("button");
+    const body=document.querySelector("body");
+    const color=['violet','blue','black','red','yellow','grey','indigo','orange'];
+    body.style.backgroundColor='skyblue';
+    document.addEventListener('click',function(){
+           const colorIndex=parseInt(Math.random()*color.length);
+           body.style.backgroundColor=color[colorIndex];
+    });
+
+</script>
+</html>
