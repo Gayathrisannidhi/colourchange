@@ -11,21 +11,19 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        margin-top: 400px;
-        
-               
+        margin-top: 400px;      
     }
     body :hover{
-        color: rgb(255, 2, 2);
+        color: crimson;
     }
 </style>
 <body>
-    <button > <b> CLICK KARO BHAI </b> </button>
+    <button > <b> <u> CLICK KARO BHAI</u>  </b> </button>
 </body>
 <script>
     const button=document.querySelector("button");
     const body=document.querySelector("body");
-    const color=['violet','blue','black','red','yellow','grey','indigo','orange'];
+    const color=['red','orange','yellow','green','blue','indigo','violet'];
     body.style.backgroundColor='skyblue';
     document.addEventListener('click',function(){
            const colorIndex=parseInt(Math.random()*color.length);
