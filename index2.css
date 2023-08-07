@@ -2,8 +2,25 @@ body{
       font-size: xx-large;
         height: 100px;
         width: 1600px;
-        font-family: cursive;
+        
        font-weight: bolder;
-       font-style: italic;
+       
        border-radius: 50%;
+       
+}
+ button{
+  width: 300px;
+  height: 170px;
+  background-image: url(images\ \(2\).jpeg);
+  border:  10px double black ;
+  background-position: center;
+  border-radius: 0%;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  background-color: violet;
+  font-style: italic;
+  font-family: sans-serif;
+
+  
 }
